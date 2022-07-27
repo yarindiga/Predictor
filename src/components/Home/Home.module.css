@@ -1,0 +1,44 @@
+.game {
+  /* max-width: 60rem;
+  width: 90%;
+  /* width: 70rem; */
+  /* margin: 2rem auto; 
+  margin-left: 22rem;
+  animation: games-appear 1s ease-out forwards; */
+
+  background-color: rgb(15, 4, 80);
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  border: 1px solid black;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.GamesLoading {
+  text-align: center;
+  color: white;
+}
+
+.GamesError {
+  text-align: center;
+  color: red;
+}
+
+.games ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes games-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
